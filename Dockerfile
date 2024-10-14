@@ -1,4 +1,5 @@
 FROM openjdk
+
 WORKDIR /usr/src/app
 RUN curl -so /usr/bin/libretto-run.jar http://libretto-lang.org/ide/libretto-run.jar && \
     mkdir -p ~/Libretto/web/app/src && \
